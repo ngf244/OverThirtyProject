@@ -240,11 +240,11 @@
 	<c:set var="contextPath" value="${ pageContext.servletContext.contextPath }" scope="application"/>
 	<header>
 		<div id="titleHeader">
-			<img id="mainIcon" src="${ contextPath }/views/images/logo.png">
+			<img id="mainIcon" src="${ contextPath }/resources/images/logo.png">
 			<%-- <div id="mainLetter"><img src="${ contextPath }/views/images/왓두글자.PNG"></div> --%>
 			<div id="mainSearch">
 				<input type="text">
-				<img src="${ contextPath }/views/images/search.png">
+				<img src="${ contextPath }/resources/images/search.png">
 			</div>
 			<div id="basicForm">
 				<!-- 로그인 안되어 있을 때 -->
@@ -255,8 +255,8 @@
 				
 				<!-- 로그인 되어 있을 때 -->
 				<div id="welcomeName">김대호님 환영합니다</div><br>
-				<img id="notice" class="notice" src="${ contextPath }/views/images/알림.PNG">
-				<img id="modalMenu" src="${ contextPath }/views/images/메뉴.PNG">
+				<img id="notice" class="notice" src="${ contextPath }/resources/images/알림.PNG">
+				<img id="modalMenu" src="${ contextPath }/resources/images/메뉴.PNG">
 				<div id="noticeArea" class="notice">
 					
 				</div>
@@ -272,22 +272,22 @@
 						<div style="height: 30px;"></div>
 						
 						<div class="smallMenu yellow">
-							<img src="${ contextPath }/views/images/point.png">
+							<img src="${ contextPath }/resources/images/point.png">
 							<br><b>100 POINT</b>
 						</div>
 						
 						<div class="smallMenu yellow">
-							<img src="${ contextPath }/views/images/cash.png">
+							<img src="${ contextPath }/resources/images/cash.png">
 							<br><b>100 CASH</b>
 						</div>
 						
 						<div class="smallMenu blue">
-							<img src="${ contextPath }/views/images/info.png">
+							<img src="${ contextPath }/resources/images/info.png">
 							<br><b>마이페이지</b>
 						</div>
 						
 						<div class="smallMenu blue">
-							<img src="${ contextPath }/views/images/logout.png">
+							<img src="${ contextPath }/resources/images/logout.png">
 							<br><b>로그아웃</b>
 						</div>
 						
@@ -343,12 +343,9 @@
 		
 		<div id="menuHeaderWrap">
 			<div id="menuHeader">
-				<div class="menubar">공지사항</div>
 				<div class="menubar">가이드</div>
-				<div class="menubar">사진</div>
-				<div class="menubar">미디어</div>
-				<div class="menubar">HIT 갤러리</div>
-				<div class="menubar">문의</div>
+				<div class="menubar">게시판</div>
+				<div class="menubar">포인트 샵</div>
 				<div class="menubar">충전소</div>
 				
 				<div id="menuHeaderText">
