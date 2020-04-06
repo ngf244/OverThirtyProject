@@ -34,6 +34,21 @@
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
 	
+	<!-- 캐시게시판 관련 -->
+	<servlet>
+		<servlet-name>cBoardServlet</servlet-name>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+		<init-param>
+			<param-name>contextConfigLocation</param-name>
+			<param-value>/WEB-INF/spring/appServlet/cBoard-context.xml</param-value>
+		</init-param>
+	</servlet>
+		
+	<servlet-mapping>
+		<servlet-name>cBoardServlet</servlet-name>
+		<url-pattern>*.ch</url-pattern>
+	</servlet-mapping>
+	
 	<!-- 공용 에러페이지 등록 -->
 	<error-page>
 		<exception-type>java.lang.Exception</exception-type>

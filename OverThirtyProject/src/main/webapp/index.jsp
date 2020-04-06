@@ -20,7 +20,9 @@
 	<section>
 		<div id="left-side" style="background-color: yellow;">
 		</div>
-		<div id="main" style="background: red">
+		<div id="main">
+			<button onclick="javascript:location.href='writeView.ch';">캐시게시판 글쓰기</button>
+			
 		</div>
         <div id="right-side" style="background: blue">
             
